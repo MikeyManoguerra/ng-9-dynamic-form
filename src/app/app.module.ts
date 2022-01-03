@@ -24,6 +24,11 @@ import { FormsModule } from '@angular/forms';
 
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [ //needed until ivy is enabled
+    TheTextAreaComponent,
+    TheInputComponent,
+    TheSelectComponent
+  ]
 })
 export class AppModule { }
